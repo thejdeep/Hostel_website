@@ -1,0 +1,233 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Hostels</title>
+<!-- Bootstrap -->
+<link href="css/bootstrap.min.css" rel='stylesheet' type='text/css' />
+<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+ <!--[if lt IE 9]>
+     <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+     <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+<link href='http://fonts.googleapis.com/css?family=Kreon:300,400,700' rel='stylesheet' type='text/css'>
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<!-- start plugins -->
+<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script>
+		$(function() {
+			var pull 		= $('#pull');
+				menu 		= $('nav ul');
+				menuHeight	= menu.height();
+			$(pull).on('click', function(e) {
+				e.preventDefault();
+				menu.slideToggle();
+			});
+			$(window).resize(function(){
+        		var w = $(window).width();
+        		if(w > 320 && menu.is(':hidden')) {
+        			menu.removeAttr('style');
+        		}
+    		});
+		});
+	</script>
+<!----font-Awesome----->
+   	<link rel="stylesheet" href="fonts/css/font-awesome.min.css">
+<!----font-Awesome----->
+<!-- start light_box -->
+<link rel="stylesheet" type="text/css" href="css/jquery.fancybox.css" media="screen" />
+<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+<script type="text/javascript" src="js/jquery.fancybox-1.2.1.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$("div.fancyDemo a").fancybox();
+		});
+	</script>
+
+</head>
+<body>
+<div class="header_bg" id="home"><!-- start header -->
+<div class="container">
+	<div class="row header text-center specials">
+		<div class="h_logo">
+			<a href="index.php"><img src="images/logo.gif" alt="" class="responsive"/></a>
+		</div>
+		<nav class="top-nav">
+			<ul class="top-nav nav_list">
+								<li class="logo page-scroll"><a title="hexa" href="index.php"><img src="images/logo.gif" width="40px" height="40px" alt="" class="responsive"/></a></li>
+				<li><a href="hostels.html">Hostels</a></li>
+				<li><a href="council.html">Council Team</a></li>
+			    <li><a href="message.html">Message</a></li>
+				<li><a href="faq.html">FAQ</a></li>
+				<li><a href="complaint_choice.html">Register Complaint</a></li>
+			</ul>
+			<a href="#" id="pull"><img src="images/nav-icon.png" title="menu" /></a>
+		</nav>
+		<div class="clearfix"></div>
+	</div>
+</div>
+</div>
+<div class="container"><!-- start main -->
+	<div class="main row">
+ 	 	<h2 class="style">List of Hostels</h2>
+	 	 <div class="grids_of_4 row">
+				<div class="col-md-3 images_1_of_4">
+					<div class="fancyDemo">
+						<a rel="group" title=""><img src="images/hostels/1.jpg" alt=""class="img-responsive"/></a>
+					</div>
+					 <h3><a href="hostel_one.html">I Block</a></h3>
+					 <h4><a href="hostel_one.html">More info</a> </h4>
+				</div>
+				<div class="col-md-3 images_1_of_4">
+					<div class="fancyDemo">
+						<a rel="group" title=""><img src="images/hostels/2.jpg" alt=""class="img-responsive"/></a>
+					</div>
+					 <h3><a href="hostel_two.html">II Block</a></h3>
+					 <h4><a href="hostel_two.html">More info</a> </h4>
+				</div>
+				<div class="col-md-3 images_1_of_4">
+					<div class="fancyDemo">
+						<a rel="group" title=""><img src="images/hostel_place.png" alt=""class="img-responsive"/></a>
+					</div>
+					 <h3><a href="hostel_three.html">III Block</a></h3>
+					 <h4><a href="hostel_three.html">More info</a> </h4>
+				</div>
+				<div class="col-md-3 images_1_of_4">
+					<div class="fancyDemo">
+						<a rel="group" title=""><img src="images/hostels/4.jpg" alt=""class="img-responsive"/></a>
+					</div>
+					 <h3><a href="hostel_four.html">IV Block</a></h3>
+					 <h4><a href="hostel_four.html">More info</a> </h4>
+				</div>
+				<div class="clear"></div>
+			</div>
+	 	 <div class="grids_of_4 row">
+				<div class="col-md-3 images_1_of_4">
+					<div class="fancyDemo">
+						<a rel="group" title=""><img src="images/hostels/5.jpg" alt=""class="img-responsive"/></a>
+					</div>
+					 <h3><a href="hostel_five.html">V Block</a></h3>
+					 <h4><a href="hostel_five.html">More info</a> </h4>
+				</div>
+				<div class="col-md-3 images_1_of_4">
+					<div class="fancyDemo">
+						<a rel="group" title=""><img src="images/hostel_place.png" alt=""class="img-responsive"/></a>
+					</div>
+					 <h3><a href="hostel_six.html">VII Block</a></h3>
+					 <h4><a href="hostel_six.html">More info</a> </h4>
+				</div>
+				<div class="col-md-3 images_1_of_4">
+					<div class="fancyDemo">
+						<a rel="group" title=""><img src="images/hostels/8-compressor.jpg" alt=""class="img-responsive"/></a>
+					</div>
+				     <h3><a href="hostel_seven.html">VIII Block</a></h3>
+					 <h4><a href="hostel_seven.html">More info</a> </h4>
+				</div>
+				<div class="col-md-3 images_1_of_4">
+					<div class="fancyDemo">
+						<a rel="group" title=""><img src="images/hostels/mt1.jpeg" alt=""class="img-responsive"/></a>
+					</div>
+					  <h3><a href="hostel_eight.html">MT-1</a></h3>
+					 <h4><a href="hostel_eight.html">More info</a> </h4>
+				</div>
+				<div class="clear"></div>
+			</div>
+				 	 <div class="grids_of_4 row">
+				<div class="col-md-3 images_1_of_4">
+					<div class="fancyDemo">
+						<a rel="group" title=""><img src="images/hostel_place.png" alt=""class="img-responsive"/></a>
+					</div>
+					 <h3><a href="hostel_nine.html">MT-2</a></h3>
+					 <h4><a href="hostel_nine.html">More info</a> </h4>
+				</div>
+				<div class="col-md-3 images_1_of_4">
+					<div class="fancyDemo">
+						<a rel="group" title=""><img src="images/hostels/mt3.jpg" alt=""class="img-responsive"/></a>
+					</div>
+					 <h3><a href="hostel_ten.html">MT-3</a></h3>
+					 <h4><a href="hostel_ten.html">More info</a> </h4>
+				</div>
+
+				<div class="col-md-3 images_1_of_4">
+					<div class="fancyDemo">
+						<a rel="group" title=""><img src="images/hostel_place.png" alt=""class="img-responsive"/></a>
+					</div>
+					  <h3><a href="hostel_twelve.html">PG Block</a></h3>
+					 <h4><a href="hostel_twelve.html">More info</a> </h4>
+				</div>
+
+				<div class="col-md-3 images_1_of_4">
+					<div class="fancyDemo">
+						<a rel="group" title=""><img src="images/hostels/gh1.jpg" alt=""class="img-responsive"/></a>
+					</div>
+				     <h3><a href="hostel_eleven.html">Girls Block 1</a></h3>
+					 <h4><a href="hostel_eleven.html">More info</a> </h4>
+				</div>
+				<div class="clear"></div>
+			</div>
+			 <div class="grids_of_4 row">
+				<div class="col-md-3 images_1_of_4">
+					<div class="fancyDemo">
+						<a rel="group" title=""><img src="images/hostel_place.png" alt=""class="img-responsive"/></a>
+					</div>
+					 <h3><a href="hostel_thirteen.html">Girls Block 2</a></h3>
+					 <h4><a href="hostel_thirteen.html">More info</a> </h4>
+				</div>
+				<div class="col-md-3 images_1_of_4">
+					<div class="fancyDemo">
+						<a rel="group" title=""><img src="images/hostels/gh3.jpg" alt=""class="img-responsive"/></a>
+					</div>
+					 <h3><a href="hostel_fourteen.html">Girls Block 3</a></h3>
+					 <h4><a href="hostel_fourteen.html">More info</a> </h4>
+				</div>
+
+				<div class="col-md-3 images_1_of_4">
+					<div class="fancyDemo">
+						<a rel="group" title=""><img src="images/hostel_place.png" alt=""class="img-responsive"/></a>
+					</div>
+					  <h3><a href="hostel_fifteen.html">Girls Block 4</a></h3>
+					 <h4><a href="hostel_fifteen.html">More info</a> </h4>
+				</div>
+
+				<div class="col-md-3 images_1_of_4">
+					<div class="fancyDemo">
+						<a rel="group" title=""><img src="images/hostels/gh5.jpg" alt=""class="img-responsive"/></a>
+					</div>
+				     <h3><a href="hostel_sixteen.html">Girls Block 5</a></h3>
+					 <h4><a href="hostel_sixteen.html">More info</a> </h4>
+				</div>
+				<div class="clear"></div>
+			</div>
+	</div>
+</div><!-- end main -->
+<div class="footer1_bg"><!-- start footer1 -->
+	<div class="container">
+		<div class="row  footer">
+			<div class="copy text-center">
+				<p class="link"><span>NITK Surathkal</span></p>
+				<a href="#home" id="toTop" style="display: block;"><span id="toTopHover" style="opacity: 1;"> </span></a>
+			</div>
+		</div>
+		<script type="text/javascript">
+				$(function() {
+				  $('a[href*=#]:not([href=#])').click(function() {
+				    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+			
+				      var target = $(this.hash);
+				      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+				      if (target.length) {
+				        $('html,body').animate({
+				          scrollTop: target.offset().top
+				        }, 1000);
+				        return false;
+				      }
+				    }
+				  });
+				});
+		</script>
+		<!---- start-smoth-scrolling---->		
+	</div>
+</div>
+</body>
+</html>
