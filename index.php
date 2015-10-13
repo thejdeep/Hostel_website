@@ -45,7 +45,7 @@
 		</div>
 		<nav class="top-nav">
 			<ul class="top-nav nav_list">
-								<li class="logo page-scroll"><a title="hexa" href="index.php"><img src="images/logo.gif" alt="" class="responsive" width="40px" height="40px"/></a></li>
+								<li class="logo page-scroll"><a title="hexa" href="index.php"><img src="images/nitk-compressor.png" alt="" class="responsive" width="40px" height="40px"/></a></li>
 				<li><a href="hostels.html">Hostels</a></li>
 				<li><a href="council.html">Council Team</a></li>
 			    <li><a href="message.html">Message</a></li>
